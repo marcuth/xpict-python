@@ -22,9 +22,9 @@
 ## 📦 Installation
 
 ```bash
-poetry add xpict
+poetry add xpict.py
 # or
-pip install xpict
+pip install xpict.py
 ```
 
 Requires Python 3.9+ and Pillow 11.2+ (with FreeType support, which the official wheels include).

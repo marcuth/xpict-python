@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "xpict"
+name = "xpict.py"
 version = "0.1.0"
 description = "Xpict is a library for generating standardized images from declarative templates (built on Pillow)."
 authors = ["Marcuth <me@marcuth.dev>"]
