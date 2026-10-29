@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "xpict"
+version = "1.0.3"
+description = "Xpict is a library for generating standardized images from declarative templates (built on Pillow)."
+authors = ["Marcuth"]
+license = "MIT"
+readme = "README.md"
+keywords = ["xpict", "image", "template", "pillow"]
+packages = [{ include = "xpict", from = "src" }]
+include = ["src/xpict/py.typed"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pillow = ">=11.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
+pytest-cov = ">=5.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
